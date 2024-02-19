@@ -1,28 +1,28 @@
 [
     [
-        "smell",
         "light",
-        "video"
+        "main_light_in_kitchen",
+        "voice"
     ],
     [
-        "smell",
+        "light",
+        "light_bulb",
+        "voice"
+    ],
+    [
+        "main_light_in_kitchen",
         "light",
         "voice"
     ],
     [
-        "smell",
-        "image",
-        "video"
-    ],
-    [
-        "smell",
-        "image",
+        "light",
+        "main_light_in_kitchen",
         "voice"
     ],
     [
         "music",
         "light",
-        "video"
+        "main_light_in_kitchen"
     ],
     [
         "music",
@@ -31,12 +31,12 @@
     ],
     [
         "music",
-        "image",
-        "video"
+        "voice",
+        "light"
     ],
     [
         "music",
-        "image",
+        "light",
         "voice"
     ]
 ]
