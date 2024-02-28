@@ -4,7 +4,7 @@
         "stages": [
             {
                 "id": "breakfast_stage_1",
-                "duration": 6000,
+                "duration": 600,
                 "stimuli_combination": [
                     "light",
                     "voice"
@@ -32,7 +32,7 @@
             },
             {
                 "id": "breakfast_stage_2",
-                "duration": 6000,
+                "duration": 600,
                 "stimuli_combination": [
                     "main_light_in_kitchen",
                     "music"
@@ -60,7 +60,7 @@
             },
             {
                 "id": "breakfast_stage_3",
-                "duration": 6000,
+                "duration": 600,
                 "stimuli_combination": [
                     "main_light_in_kitchen",
                     "voice"
@@ -92,7 +92,7 @@
         "stages": [
             {
                 "id": "lunch_stage_1",
-                "duration": 6000,
+                "duration": 600,
                 "stimuli_combination": [
                     "main_light_in_kitchen",
                     "music"
@@ -120,7 +120,7 @@
             },
             {
                 "id": "lunch_stage_2",
-                "duration": 6000,
+                "duration": 600,
                 "stimuli_combination": [
                     "main_light_in_kitchen",
                     "voice"
@@ -148,7 +148,7 @@
             },
             {
                 "id": "lunch_stage_3",
-                "duration": 6000,
+                "duration": 600,
                 "stimuli_combination": [
                     "main_light_in_kitchen",
                     "voice"
@@ -181,7 +181,7 @@
         "stages": [
             {
                 "id": "dinner_stage_1",
-                "duration": 6000,
+                "duration": 600,
                 "stimuli_combination": [
                     "main_light_in_kitchen",
                     "voice"
@@ -209,7 +209,7 @@
             },
             {
                 "id": "dinner_stage_2",
-                "duration": 6000,
+                "duration": 600,
                 "stimuli_combination": [
                     "main_light_in_kitchen",
                     "music"
@@ -237,7 +237,7 @@
             },
             {
                 "id": "dinner_stage_3",
-                "duration": 6000,
+                "duration": 600,
                 "stimuli_combination": [
                     "main_light_in_kitchen",
                     "voice"
