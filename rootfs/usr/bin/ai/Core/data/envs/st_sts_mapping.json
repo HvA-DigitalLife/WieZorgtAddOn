@@ -3,7 +3,7 @@
     "main_light_in_kitchen": {
       "id": "lamp_1",
       "module": "wz_st_light",
-      "device_id": "input_number.kitchen_cue_01",
+      "device_id": "kitchen_cue_01",
       "parameters": {
         "value": 1,
         "brightness": 100
@@ -12,7 +12,7 @@
     "light_bulb": {
       "id": "lamp_2",
       "module": "wz_st_light",
-      "device_id": "input_number.kitchen_cue_02",
+      "device_id": "kitchen_cue_02",
       "parameters": {
         "value": 1,
         "brightness": 100
@@ -32,7 +32,7 @@
     "main_light_in_kitchen": {
         "id": "lamp_1",
         "module": "wz_st_light",
-        "device_id": "input_number.kitchen_cue_01",
+        "device_id": "kitchen_cue_01",
         "parameters": {
             "value": 1,
             "brightness": 100
@@ -50,7 +50,7 @@
     "light": {
         "id": "lamp_1",
         "module": "wz_st_light",
-        "device_id": "input_number.dining_cue_01",
+        "device_id": "dining_cue_01",
         "parameters": {
           "value": 1,
           "brightness": 100
@@ -63,14 +63,14 @@
         "module": "wz_st_illi_video",
         "device_id": "input_number.kitchen_cue_100",
         "parameters": {
-          "value": 1,
+          "value": 2,
             "play_times": 2
         }
     },
     "light": {
         "id": "lamp_2",
         "module": "wz_st_light",
-        "device_id": "input_number.kitchen_cue_01",
+        "device_id": "kitchen_cue_01",
         "parameters": {
           "value": 1,
           "brightness": 100
@@ -81,7 +81,7 @@
         "module": "wz_st_illi_video",
         "device_id": "input_number.kitchen_cue_100",
         "parameters": {
-            "value": 1,
+            "value": 2,
             "play_times": 2
         }
     }
@@ -99,7 +99,7 @@
     "light": {
         "id": "lamp_3",
         "module": "wz_st_light",
-        "device_id": "input_number.kitchen_cue_01",
+        "device_id": "kitchen_cue_01",
         "parameters": {
           "value": 1,
           "brightness": 100
