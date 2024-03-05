@@ -20,11 +20,10 @@
     },
     "music": {
       "id": "music_1",
-      "module": "wz_st_illi_video",
-      "device_id": "input_number.kitchen_cue_100",
+      "module": "wz_st_input_number",
+      "device_id": "kitchen_cue_100",
       "parameters": {
-        "value": 1,
-        "play_times": 2
+        "value": 1
       }
     }
   },
@@ -40,11 +39,10 @@
     },
     "music": {
         "id": "music_1",
-        "module": "wz_st_illi_video",
-        "device_id": "input_number.kitchen_cue_100",
+        "module": "wz_st_input_number",
+        "device_id": "kitchen_cue_100",
         "parameters": {
-            "value": 1,
-            "play_times": 2
+            "value": 1
         }
     },
     "light": {
@@ -60,11 +58,10 @@
   "lunch": {
     "music": {
         "id": "music_2",
-        "module": "wz_st_illi_video",
-        "device_id": "input_number.kitchen_cue_100",
+        "module": "wz_st_input_number",
+        "device_id": "kitchen_cue_100",
         "parameters": {
-          "value": 2,
-            "play_times": 2
+          "value": 2
         }
     },
     "light": {
@@ -78,22 +75,20 @@
     },
     "voice": {
         "id": "voice_2",
-        "module": "wz_st_illi_video",
-        "device_id": "input_number.kitchen_cue_100",
+        "module": "wz_st_input_number",
+        "device_id": "kitchen_cue_100",
         "parameters": {
-            "value": 2,
-            "play_times": 2
+            "value": 2
         }
     }
   },
   "dinner": {
     "music": {
         "id": "music_3",
-        "module": "wz_st_illi_video",
-        "device_id": "input_number.kitchen_cue_100",
+        "module": "wz_st_input_number",
+        "device_id": "kitchen_cue_100",
         "parameters": {
-            "value": 1,
-            "play_times": 2
+            "value": 1
         }
     },
     "light": {
@@ -107,11 +102,10 @@
     },
     "voice": {
         "id": "voice_3",
-        "module": "wz_st_illi_video",
-        "device_id": "input_number.kitchen_cue_100",
+        "module": "wz_st_input_number",
+        "device_id": "kitchen_cue_100",
         "parameters": {
-            "value": 1,
-            "play_times": 2
+            "value": 1
         }
     }
   }
