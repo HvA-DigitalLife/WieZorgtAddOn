@@ -25,12 +25,11 @@ class AiTraining:
         # TODO check or redifine "persistent_data_path"
         self.persistent_data_path = persistent_data_path
         self.cache_data_path = f"{self.persistent_data_path}cache/"
-        # self.results_data_path = f"{self.cache_data_path}results/"
+        self.results_data_path = f"{self.cache_data_path}results/"
         self.models_data_path = f"{self.cache_data_path}models/"
         self.training_data_path = f"{self.cache_data_path}training_data/"
         self.figures_data_path = f"{self.persistent_data_path}figures/"
 
-        self.results_data_path = "Core/data/envs/cache/results/"
         self.static_data_path = "Core/data/envs/"
 
         # Define contexts and action combinations
