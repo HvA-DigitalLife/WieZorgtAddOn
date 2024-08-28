@@ -13,18 +13,17 @@ WORKDIR /usr/src
 # * upgrade pip for latest packages support
 # * install python dependencies
 
+
 RUN \
     apt-get update \
-    && apt-get install -y --no-install-recommends python3 python3-pip restic \
+    && apt-get install -y --no-install-recommends build-essential python3.10 python3-pip restic pkg-config cmake python3-dev libhdf5-dev \
     && restic self-update \
     && pip3 install --upgrade pip \
     && pip3 install --no-cache-dir -U setuptools wheel \
-    && pip3 install --no-cache-dir urllib3 \
-    && pip3 install --no-cache-dir schedule \
+    && pip3 install --no-cache-dir urllib3 \    && pip3 install --no-cache-dir schedule \    && pip3 install --no-cache-dir tensorflow \
     && pip3 install --no-cache-dir numpy \
     && pip3 install --no-cache-dir pandas \
     && pip3 install --no-cache-dir matplotlib \
-    && pip3 install --no-cache-dir tensorflow \
     && pip3 install --no-cache-dir tabulate \
     && pip3 install --no-cache-dir tensorboardX \
     && pip3 install --no-cache-dir gym \
