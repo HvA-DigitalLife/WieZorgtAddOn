@@ -20,7 +20,9 @@ RUN \
     && restic self-update \
     && pip3 install --upgrade pip \
     && pip3 install --no-cache-dir -U setuptools wheel \
-    && pip3 install --no-cache-dir urllib3 \    && pip3 install --no-cache-dir schedule \    && pip3 install --no-cache-dir tensorflow \
+    && pip3 install --no-cache-dir urllib3 \
+    && pip3 install --no-cache-dir schedule \
+    && pip3 install --no-cache-dir tensorflow \
     && pip3 install --no-cache-dir numpy \
     && pip3 install --no-cache-dir pandas \
     && pip3 install --no-cache-dir matplotlib \
